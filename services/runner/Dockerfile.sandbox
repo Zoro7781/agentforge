@@ -1,0 +1,5 @@
+FROM python:3.12-slim
+RUN pip install --no-cache-dir fastapi==0.115.12 uvicorn==0.34.2 pydantic==2.11.4 pytest==8.3.5 httpx==0.28.1 && useradd --uid 10001 sandbox
+USER 10001
+WORKDIR /app
+CMD ["python", "-m", "pytest", "-q"]

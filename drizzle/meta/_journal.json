@@ -1,0 +1,20 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1789364468050,
+      "tag": "0000_workable_grim_reaper",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1789481022142,
+      "tag": "0001_windy_stature",
+      "breakpoints": true
+    }
+  ]
+}
